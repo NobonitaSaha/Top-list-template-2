@@ -436,6 +436,15 @@ body .modal-backdrop.show{
     body {
         overflow-x: hidden;
     }
+
+    .footer-txt h2 {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 28px;
+    }
 }
 
 
