@@ -46,6 +46,7 @@ body {
     background-color: #13161f !important;
     font-family: "Poppins",sans-serif !important;
     position: relative;
+    overflow-x: hidden;
 }
 body .small{
     font-size:8px;
