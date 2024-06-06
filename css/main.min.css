@@ -37,15 +37,15 @@ a:hover{
 .hamburger .hamburger-inner,.hamburger .hamburger-inner::before,.hamburger .hamburger-inner::after,.hamburger.is-active .hamburger-inner,.hamburger.is-active .hamburger-inner::before,.hamburger.is-active .hamburger-inner::after{
     background-color:#ffffff
 }
-body{
-    background-image:url("../images/bg.jpg");
-    background-size:100%;
-    background-attachment:fixed;
-    background-position:top center;
-    background-repeat:no-repeat;
-    background-color:#13161f !important;
-    font-family:"Poppins",sans-serif !important;
-    position:relative
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #13161f !important;
+    font-family: "Poppins",sans-serif !important;
+    position: relative;
 }
 body .small{
     font-size:8px;
@@ -427,6 +427,14 @@ body .modal-backdrop.show{
 @media only screen and (max-width: 600px) {
     .btn.btn-primary {
         max-width: 135px;
+    }
+
+    div#page {
+        overflow-x: hidden;
+    }
+    
+    body {
+        overflow-x: hidden;
     }
 }
 
